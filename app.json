@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.daddycoders.one_roof_service"
     },
     "web": {
       "favicon": "./assets/favicon.png"
