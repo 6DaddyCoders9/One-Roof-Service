@@ -68,6 +68,21 @@ const TabsLayout = () => {
             ),
           }}
         />
+        <Tabs.Screen
+          name="about_us"
+          options={{
+            title: "About",
+            headerShown: false,
+            tabBarIcon: ({ color, focused }) => (
+              <TabIcon
+                icon={icons.search}
+                color={color}
+                name="About App"
+                focused={focused}
+              />
+            ),
+          }}
+        />
       </Tabs>
     </>
   );
